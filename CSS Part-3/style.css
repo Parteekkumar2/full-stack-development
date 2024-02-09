@@ -1,0 +1,28 @@
+/* height property */
+div{
+    height:200px;
+    width:500px;
+    background-color: pink;
+    /* border property */
+    /* border-width:5px;
+    border-style:solid;
+    border-color:black;
+ */
+ /* shorthand property */
+ border:5px solid black; 
+ /* border sides 
+ border-left-color:black;
+ border-left-style:dashed;
+ border-top--style:dashed;
+ border-top-color:yellow*/
+ /* border radius */
+ border-radius:15px;
+ margin:10px 20px 30px;
+}
+button{
+    border:2px solid black;
+    background-color: yellow;
+    border-radius:15px;
+    /* padding property */
+    padding:10px 20px;
+}

@@ -1,0 +1,12 @@
+#outer{
+    height:400px;
+    width: 400px;
+    background-color: blueviolet;
+    margin:50px;
+}
+#inner{
+    height:100px;
+    width:100px;
+    background-color:yellow;
+    margin:10%
+}

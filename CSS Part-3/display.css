@@ -1,0 +1,14 @@
+h1{
+    display:inline;
+}
+h2{
+    display:inline;
+}
+span{
+    
+    border: 2px solid black;
+    height:100 px;
+    width:20 px;
+    padding: 50px;
+    margin:2px;
+}
