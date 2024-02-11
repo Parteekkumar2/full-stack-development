@@ -1,5 +1,5 @@
 #container{
-    height:400px;
+    height:500px;
     width:80%;
     background-color: azure;
     margin:10px auto;
@@ -12,7 +12,7 @@ h1{
 }
 #container div{
     height:100px;
-    width:200px;
+    width:300px;
     color:white;
     text-align: center;
     font-size: 1.5cm;
