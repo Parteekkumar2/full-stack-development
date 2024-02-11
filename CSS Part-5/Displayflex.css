@@ -5,14 +5,14 @@
     margin:10px auto;
     border:2px solid black;
     display: flex;
-   flex-direction:column; 
+   flex-direction: column; 
 }
 h1{
     text-align:center;
 }
 #container div{
     height:100px;
-    width:300px;
+    width:200px;
     color:white;
     text-align: center;
     font-size: 1.5cm;
