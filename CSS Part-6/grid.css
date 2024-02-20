@@ -1,0 +1,15 @@
+#container{
+    height:300px;
+    width:600px;
+    background-color: aqua;
+    display:grid;
+}
+
+
+.option{
+    height:50px;
+    width:50px;
+    background-color: yellowgreen;
+    border:2px solid black;
+    text-align:center;
+}
