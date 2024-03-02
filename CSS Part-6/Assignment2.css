@@ -16,7 +16,7 @@
 
  @media (max-width: 720px){
     .header{
-        grid-column:1 /span 12
+        grid-column:1 /span 12;
     }
     .navigation{
         grid-column:1 /span 12;
@@ -39,3 +39,4 @@
         grid-row:12;
     }
  }
+ /* effect will be screen % 250 */
