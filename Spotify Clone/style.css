@@ -9,7 +9,7 @@
 .main{
     display: flex;
     height:100vh;
-    padding:0.5rem;
+    padding: 0.5rem;
 }
 
 .sidebar{
@@ -100,4 +100,9 @@ a{
 
 .icons i:hover{
     opacity:1;
+}
+
+.box{
+    background-color: #232323;
+    height: 8rem;
 }
