@@ -24,6 +24,7 @@ body{
     flex:1;
     border-radius: 1rem;
     overflow:auto;
+    padding: 0 1.5rem 0 1.5rem;
 }
 
 .music-player{
@@ -173,4 +174,32 @@ a {
     .hide{
         display: none;
     }
+}
+
+.card{
+    background-color: #232323;
+    width:150px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.cards-container{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.card-img{
+    width:100%;
+    border-radius: 0.5rem;
+}
+
+.card-title{
+    font-weight: 600;
+}
+
+.card-information{
+    font-size:0.7rem;
+    opacity:0.8;
 }
