@@ -1,0 +1,20 @@
+Introduction
+What is variable ?
+Data types in JS
+Numbers in JS
+Operation in JS
+NaN in JS
+Operator Precendence
+Let , Const & Var keywords
+Practice question
+Assignment Operators
+Unary operators 
+Practice question 
+Identifier Rules
+Boolean in JS 
+What is TypeScript ?
+Practice question 
+String in JS
+String Indices
+Null & Undefined in JS 
+Practice question 
