@@ -31,3 +31,14 @@ console.log(++a);
 let age=18;
 console.log(age<18);
 
+//conditional(if)
+console.log("before my if statements");
+let ages=21;
+if(ages>=18){
+    console.log("you can vote");
+}
+if(ages>20){
+  console.log("you are in your 20s");    
+}
+console.log("after my if statement");
+
