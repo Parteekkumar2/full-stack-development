@@ -26,3 +26,8 @@ console.log(a**c);
 //unary
 console.log(a++);
 console.log(++a);
+
+//Comparision
+let age=18;
+console.log(age<18);
+
