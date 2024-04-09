@@ -42,3 +42,16 @@ if(ages>20){
 }
 console.log("after my if statement");
 
+//Practice question
+let color="red";
+//Traffic light system
+if(color==="red"){
+    console.log("stop");
+}
+if(color==="yellow"){
+    console.log("slow down");
+}
+if(color==="green"){
+    console.log("go");
+}
+
