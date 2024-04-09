@@ -11,3 +11,18 @@ let eraserprice=5;
 //console.log(output);
 
 console.log(`The total price is :${pencilprice+eraserprice} Rupees.`);
+
+
+//operators
+let a=10;
+let c=5;
+console.log(a-c);
+console.log(a+c);
+console.log(a*c);
+console.log(a%c);
+console.log(a/c);
+console.log(a**c);
+
+//unary
+console.log(a++);
+console.log(++a);
