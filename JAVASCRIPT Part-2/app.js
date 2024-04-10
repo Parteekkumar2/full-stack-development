@@ -94,3 +94,16 @@ if(size==="xl"){
 }else{
     console.log("Price is Rs.50");
 }
+
+//Nested if-else statement
+let mark=33;
+if(mark>=33){
+    console.log("Pass");
+    if(mark>=80){
+        console.log("Grade :0");
+    }else{
+        console.log("Grade:A");
+    }
+}else{
+    console.log("Better luck next time");
+}
