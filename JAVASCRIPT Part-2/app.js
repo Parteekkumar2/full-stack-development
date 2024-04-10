@@ -70,5 +70,17 @@ else if(marks>=33){
     console.log("F");
 }
 
+//else statement
+let colors="white";
+if (colors==="red"){
+    console.log("stop");
+}else if (colors==="yellow"){
+    console.log("slowdown");
+}else if(colors==="green"){
+    console.log("go");
+}else{
+    console.log("Traffic light is broken");
+}
+
 
 
