@@ -124,3 +124,20 @@ if((num%3===0) && ((num+1==15)||(num-1==11))){
 }else{
     console.log("unsafe");
 }
+
+//switch stt
+
+let col="green";
+switch(col){
+    case "red" :
+        console.log("stop");
+        break;
+        case "yellow" :
+            console.log("slowdown");
+            break;
+            case "green" :
+                console.log("go");
+                break;
+                default:
+                    console.log("Broken light");
+}
