@@ -170,3 +170,9 @@ switch(day){
         default:
             console.log("wrong day");
 }
+
+//
+let firstname=prompt("eneter first name");
+let lastname=prompt("enter last name");
+ let msg="welcome"+" "+ firstname+" "+lastname+"!";
+ alert(msg);
