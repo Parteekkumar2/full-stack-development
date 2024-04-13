@@ -176,3 +176,11 @@ let firstname=prompt("eneter first name");
 let lastname=prompt("enter last name");
  let msg="welcome"+" "+ firstname+" "+lastname+"!";
  alert(msg);
+
+ //Assignment question
+ let nums=30;
+ if(nums %10==0){
+    console.log("good");
+ }else{
+    console.log("bad");
+ }
