@@ -4,3 +4,7 @@ let msg="   hello   ";
 let password=prompt("set your password");
 let newpass=password.trim();
 console.log(newpass);
+
+//toUppercase and toLowercase
+let name="parteek";
+console.log(name.toUpperCase());
