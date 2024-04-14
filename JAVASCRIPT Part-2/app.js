@@ -184,3 +184,8 @@ let lastname=prompt("enter last name");
  }else{
     console.log("bad");
  }
+
+ //soln 2
+ let name=prompt ("enter name");
+ let Ages=prompt ("enter Ages");
+ alert(`${name} is ${Ages} years old`);
