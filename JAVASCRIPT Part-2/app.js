@@ -211,3 +211,22 @@ let lastname=prompt("enter last name");
  }else{
     console.log("not a golden string");
  }
+
+ //soln 5
+
+ let g=5;
+ let h=18;
+ let i=13;
+ if(g>h){
+    if(g>i){
+        console.log(g, "is largest");
+    }else{
+        console.log(c, "is largest");
+    }
+ }else{
+    if(h>i){
+        console.log(h, "is largest");
+    }else{
+        console.log(i, "is largest");
+    }
+ }
