@@ -203,3 +203,11 @@ let lastname=prompt("enter last name");
     break;
     default:console.log("not a quarter");
  }
+
+ //soln 4
+ let strs="alement";
+ if((strs[0]=='a'||start[0]=='A') &&(str.length>5)){
+    console.log("golden string");
+ }else{
+    console.log("not a golden string");
+ }
