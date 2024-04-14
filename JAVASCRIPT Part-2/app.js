@@ -189,3 +189,17 @@ let lastname=prompt("enter last name");
  let name=prompt ("enter name");
  let Ages=prompt ("enter Ages");
  alert(`${name} is ${Ages} years old`);
+
+ //soln 3
+ let quarter=3;
+ switch(quarter){
+    case 1:console.log("january,february,march");
+    break;
+    case 2:console.log("april,may,june");
+    break;
+    case 3:console.log("july,august,september");
+    break;
+    case 4:console.log("october,november,december");
+    break;
+    default:console.log("not a quarter");
+ }
