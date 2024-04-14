@@ -230,3 +230,13 @@ let lastname=prompt("enter last name");
         console.log(i, "is largest");
     }
  }
+
+ //soln 6
+
+ let number1=32;
+ let number2=47852;
+ if((number1 % 10)==(number2 % 10)){
+   console.log("number have the same last digit which is",number1 %10);
+ }else {
+    console.log("number don't have the same last digit");
+ }
