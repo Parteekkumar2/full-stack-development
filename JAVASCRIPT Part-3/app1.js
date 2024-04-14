@@ -23,3 +23,6 @@ let y="   hello   ";
 //         or
 let newy=y.trim().toUpperCase();
 console.log(newy);
+
+//Slice method
+console.log(x.slice(5));
