@@ -41,3 +41,7 @@ let names="ApnaCollege";
 console.log(names.slice(4,9));
 console.log(names.indexOf("na"));
 console.log(names.replace("Apna","Our"));
+
+//sol-3
+console.log(names.slice(4).replace("l","t"));
+console.log(names.slice(4).replace("l","t").replace("l","t"));
