@@ -30,3 +30,4 @@ console.log(x.slice(5));
 //Replace and Repeat Method
 let z="IHateYou";
 console.log(z.replace("Hate","Do"));
+console.log(z.repeat(3));
