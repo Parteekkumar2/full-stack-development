@@ -35,3 +35,9 @@ console.log(z.repeat(3));
 //practice question
 let msgs="help";
 console.log(msgs.trim().toUpperCase());
+
+//soln -2
+let names="ApnaCollege";
+console.log(names.slice(4,9));
+console.log(names.indexOf("na"));
+console.log(names.replace("Apna","Our"));
