@@ -31,3 +31,7 @@ console.log(x.slice(5));
 let z="IHateYou";
 console.log(z.replace("Hate","Do"));
 console.log(z.repeat(3));
+
+//practice question
+let msgs="help";
+console.log(msgs.trim().toUpperCase());
