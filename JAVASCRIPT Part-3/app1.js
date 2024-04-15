@@ -26,3 +26,7 @@ console.log(newy);
 
 //Slice method
 console.log(x.slice(5));
+
+//Replace and Repeat Method
+let z="IHateYou";
+console.log(z.replace("Hate","Do"));
