@@ -12,3 +12,8 @@ let nums=[2,4,6,8];
 console.log(nums[0],
     nums[1],
     nums.length);
+
+    //creating array
+    let info=["aman","parteek","nikhil"];
+    console.log(info[0]);
+    console.log(info[1][0]);
