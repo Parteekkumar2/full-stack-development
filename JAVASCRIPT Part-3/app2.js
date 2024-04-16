@@ -38,3 +38,6 @@ console.log(nums[0],
     months.unshift("june");
     months.unshift("july");
     console.log(months);
+
+    //indexOf & includes
+    console.log(cars.includes("maruti"));
