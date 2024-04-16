@@ -23,3 +23,9 @@ console.log(nums[0],
     console.log(fruits);
     fruits[0]="Banana";
     console.log(fruits);
+
+    //Array method
+    let cars=["audi","bmw","xuv","maruti"];
+    console.log(cars);
+    console.log(cars.push("toyota"));
+    console.log(cars);
