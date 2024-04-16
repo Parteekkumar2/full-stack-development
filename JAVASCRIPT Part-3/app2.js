@@ -17,3 +17,9 @@ console.log(nums[0],
     let info=["aman","parteek","nikhil"];
     console.log(info[0]);
     console.log(info[1][0]);
+
+    //Array are mutable
+    let fruits=["mango","apple","litchi"];
+    console.log(fruits);
+    fruits[0]="Banana";
+    console.log(fruits);
