@@ -29,3 +29,12 @@ console.log(nums[0],
     console.log(cars);
     console.log(cars.push("toyota"));
     console.log(cars);
+
+    //practice question
+    let months=["january","july","march","august"];
+    console.log(months);
+    months.shift();
+    months.shift();
+    months.unshift("june");
+    months.unshift("july");
+    console.log(months);
