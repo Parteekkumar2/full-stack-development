@@ -41,3 +41,10 @@ console.log(nums[0],
 
     //indexOf & includes
     console.log(cars.includes("maruti"));
+
+    //Concatnation and reverse method
+    let primary=["red", "white","blue"];
+    let secondary =["oramge","green","violet"];
+    console.log(primary.concat(secondary));
+    console.log(primary.reverse());
+
