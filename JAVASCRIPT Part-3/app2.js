@@ -48,3 +48,8 @@ console.log(nums[0],
     console.log(primary.concat(secondary));
     console.log(primary.reverse());
 
+    //slice in arrays
+    console.log(primary.slice(1,3));
+    console.log(primary.slice(-1));
+
+
