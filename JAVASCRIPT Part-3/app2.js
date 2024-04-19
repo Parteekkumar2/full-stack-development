@@ -52,4 +52,8 @@ console.log(nums[0],
     console.log(primary.slice(1,3));
     console.log(primary.slice(-1));
 
+    //splice in arrays
+    let colors=["red","yellow","blue","orange","pink","white"];
+    console.log(colors.splice(4));
+
 
