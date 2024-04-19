@@ -58,5 +58,8 @@ console.log(nums[0],
     console.log(colors);
     console.log(colors.splice(0,1));
     console.log(colors);
+    console.log(colors.splice(0,1,"black","grey"));
+    console.log(colors.splice(colors));
+
 
 
