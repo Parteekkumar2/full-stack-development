@@ -61,5 +61,9 @@ console.log(nums[0],
     console.log(colors.splice(0,1,"black","grey"));
     console.log(colors.splice(colors));
 
+    //sorts in array
+    let days=["monday","sunday","wednesday","tuesday"];
+    console.log(days.sort());
+
 
 
