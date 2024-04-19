@@ -65,5 +65,9 @@ console.log(nums[0],
     let days=["monday","sunday","wednesday","tuesday"];
     console.log(days.sort());
 
+    //practice question
+    console.log(months.splice(0,2,"july","june"));
+    console.log(months);
+
 
 
