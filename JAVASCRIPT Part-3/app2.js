@@ -93,6 +93,13 @@ console.log(nums[0],
     game[0][1]="o";
     console.log(game);
 
+    //Assignment qs 1
+    let arra=[7,9,0,-2];
+    let n=3;
+    let ans=arra.slice(0,n);
+    console.log(ans); 
+    
+
 
 
 
