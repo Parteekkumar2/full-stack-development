@@ -98,7 +98,18 @@ console.log(nums[0],
     let n=3;
     let ans=arra.slice(0,n);
     console.log(ans); 
-    
+    //soln2
+    console.log(arra);
+    let answ=arra.slice(arra.length-n);
+    console.log(ans);
+    //soln 3
+    let str=prompt("please enter a string");
+    if(str.length==0){
+    console.log("stris empty");
+    }else{
+        console.log("string is not empty");
+    }
+
 
 
 
