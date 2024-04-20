@@ -73,5 +73,13 @@ console.log(nums[0],
     let lang=["c","c++","html","javascript","python","java","c++","sql"];
     console.log(lang.reverse().indexOf("javascript"));
 
+    //Array reference
+    let arr=["a","b"];
+    let arrcopy=arr;
+    console.log(arrcopy);
+    console.log(arrcopy==arr);
+    arrcopy.push("c");
+    console.log(arr);
+
 
 
