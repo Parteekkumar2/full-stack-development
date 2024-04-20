@@ -122,6 +122,15 @@ console.log(nums[0],
     console.log(`original string=${stre}`);
     console.log(`string without spaces=${stre.trim()}`);
 
+    //soln 6
+    let arrs=["hello","a",23,64,99,-6];
+    let items=64;
+    if(arrs.indexOf(items)!=1){
+        console.log("element exists in array");
+    }else{
+        console.log("elements doesnot exists in array");
+    }
+
 
 
 
