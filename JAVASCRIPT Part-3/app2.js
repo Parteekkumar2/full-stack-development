@@ -80,6 +80,13 @@ console.log(nums[0],
     console.log(arrcopy==arr);
     arrcopy.push("c");
     console.log(arr);
+    //nested array
+    let num=[[2,4],[3,6],[4,8]];
+    console.log(num);
+    console.log(num.length);
+    console.log(num[0].length);
+    console.log(num[0]);
+    
 
 
 
