@@ -86,7 +86,13 @@ console.log(nums[0],
     console.log(num.length);
     console.log(num[0].length);
     console.log(num[0]);
-    
+
+    //practice qs
+    let game=[["x",null,"O"],[null,"x",null],["o",null,"x"]];
+    console.log(game);
+    game[0][1]="o";
+    console.log(game);
+
 
 
 
