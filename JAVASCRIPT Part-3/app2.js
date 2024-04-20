@@ -109,6 +109,14 @@ console.log(nums[0],
     }else{
         console.log("string is not empty");
     }
+    //soln 4
+    let strs="PArTeEK";
+    let idx=3;
+    if(strs[idx]==strs[idx].toLowerCase()){
+        console.log("CHARACTER IS LOWERCASE");
+    }else{
+        console.log("CHARACTER IS NOT LOWERCASE");
+    }
 
 
 
