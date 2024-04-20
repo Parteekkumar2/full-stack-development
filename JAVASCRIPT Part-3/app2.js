@@ -117,6 +117,10 @@ console.log(nums[0],
     }else{
         console.log("CHARACTER IS NOT LOWERCASE");
     }
+    //sol 4
+    let stre=prompt("please enter a string");
+    console.log(`original string=${stre}`);
+    console.log(`string without spaces=${stre.trim()}`);
 
 
 
