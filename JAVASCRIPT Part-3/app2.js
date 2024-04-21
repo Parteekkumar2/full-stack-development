@@ -130,6 +130,7 @@ console.log(nums[0],
     }else{
         console.log("elements doesnot exists in array");
     }
+    
 
 
 
