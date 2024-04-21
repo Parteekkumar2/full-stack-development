@@ -23,3 +23,17 @@ console.log(i);
 for(let i=10;i>=2;i=i-2){
     console.log(i);
 }
+
+console.log("Print the Multiplication table");
+
+for(let i=5;i<50;i=i+5){
+    
+console.log(i);
+}
+
+console.log("Print the Multiplication table");
+let n=prompt("Write your number");
+n=parseInt(n);
+for(let i=n;i<=n*10;i=i+n){
+    console.log(i);
+}
