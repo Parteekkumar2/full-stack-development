@@ -14,4 +14,12 @@ console.log("backwards");
 for(let i=15;i>=1;i=i-2){
     console.log(i);
 }
+//print even number
+for(let i=2;i<=10;i=i+2){
+console.log(i);
+}
 
+//backwasrds
+for(let i=10;i>=2;i=i-2){
+    console.log(i);
+}
