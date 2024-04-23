@@ -44,3 +44,16 @@ for(let i=1;i<=3;i++){
         console.log(j);
     }
 }
+//while loop
+let i=1;
+while(i<=5){
+    console.log(i);
+    i++;
+}
+
+//or
+let k=5;
+while(k>=1){
+    console.log(k);
+    k--;
+}
