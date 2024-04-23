@@ -57,3 +57,10 @@ while(k>=1){
     console.log(k);
     k--;
 }
+
+//qs 2
+let g=0;
+while(g<=20){
+    console.log(g);
+    g++;
+}
