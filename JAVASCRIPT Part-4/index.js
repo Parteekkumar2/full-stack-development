@@ -126,3 +126,11 @@ for(i of fruit){
 for(char of "full stack development"){
     console.log(char);
 }
+
+//Nested for of loop
+for(list of heroes){
+   //console.log(list);
+    for(hero of list){
+        console.log(hero);
+    }
+}
