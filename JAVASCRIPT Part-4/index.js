@@ -121,3 +121,8 @@ let fruit=["mango","apple","banana","litchi","orange"];
 for(i of fruit){
     console.log(i);
 }
+
+// eg-2
+for(char of "full stack development"){
+    console.log(char);
+}
