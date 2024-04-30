@@ -115,3 +115,9 @@ for(let i=0;i<student.length;i++){
         console.log(student[i][j]);
     }
 }
+
+//for of loops
+let fruit=["mango","apple","banana","litchi","orange"];
+for(i of fruit){
+    console.log(i);
+}
