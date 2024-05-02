@@ -17,3 +17,14 @@ while(copy>0){
     copy=Math.floor(copy/10);
 }
 console.log(count);
+
+//soln-3
+let numbers =287152;
+let sum=0;
+let copys=numbers;
+while(copys>0){
+    digit=copys%10;
+    sum+=digit;
+    copys=Math.floor(copys/10);
+}
+console.log(sum);
