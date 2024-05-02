@@ -36,3 +36,13 @@ for(let i=1;i<=n;i++){
     factorial*=i;
 }
 console.log(`factorial of ${n} is ${factorial}`);
+
+//soln -5
+let arrs=[2,5,10,4,2,7,1,9];
+let largest=0;
+for(let i=0;i<arrs.length;i++){
+    if(largest<arrs[i]){
+        largest=arrs[i];
+    }
+}
+console.log(largest);
