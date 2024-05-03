@@ -42,3 +42,20 @@ console.log(obj);
 student.city="mumbai";
 student.gender="Male";
 console.log(student);
+
+//nested object
+const classinfo={
+    aman:{
+        grade:"A+",
+        city:"Delhi"
+    },
+    Parteek:{
+        grade:"A+",
+        city:"Haryana"
+    },
+    Nitin:{
+        grade:"A+",
+        city:"Mumbai"
+    }
+};
+console.log(classinfo);
