@@ -23,3 +23,6 @@ const Post={
     tags:["Nikhil" ,"Nitin"]
 };
 console.log(Post);
+//get value
+console.log(student.name);
+console.log(student["name"]);
