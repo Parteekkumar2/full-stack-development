@@ -59,3 +59,18 @@ const classinfo={
     }
 };
 console.log(classinfo);
+
+//Array of object
+const classinfor=[
+    {
+        name:"aman",
+        grade:"A+",
+        city:"Delhi"
+    },
+    {
+        name:"Parteek",
+        grade:"A+",
+        City:"Haryana"
+    }
+];
+console.log(classinfor);
