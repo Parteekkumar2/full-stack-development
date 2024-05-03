@@ -36,3 +36,9 @@ const obj={
     undefined:"e"
 };
 console.log(obj);
+
+//Add /Update value
+
+student.city="mumbai";
+student.gender="Male";
+console.log(student);
