@@ -13,3 +13,13 @@ let delhi={
     longitude:[256.98,7455.87,54665.785]
 };
 console.log(delhi);
+
+//Creating a Post
+const Post={
+    username:"@parteek",
+    content:"This is my #FirstPost",
+    Likes:150,
+    reposts:5,
+    tags:["Nikhil" ,"Nitin"]
+};
+console.log(Post);
