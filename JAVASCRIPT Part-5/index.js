@@ -26,3 +26,13 @@ console.log(Post);
 //get value
 console.log(student.name);
 console.log(student["name"]);
+
+//Conversion in get value
+const obj={
+    1:"a",
+    2:"b",
+    true:"c",
+    null:"d",
+    undefined:"e"
+};
+console.log(obj);
