@@ -74,3 +74,4 @@ const classinfor=[
     }
 ];
 console.log(classinfor);
+
