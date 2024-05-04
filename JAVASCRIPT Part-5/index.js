@@ -75,3 +75,8 @@ const classinfor=[
 ];
 console.log(classinfor);
 
+//practice question
+Math.floor(Math.random()*100)+1;
+console.log(Math.floor);
+
+
