@@ -78,3 +78,12 @@ function calcavg(a,b,c){
     console.log(avg);
 }
 calcavg(2,4,6);
+
+//practice question -4
+console.log("Print table");
+function printtable(n){
+    for(let i=n;i<=n*10;i+=n){
+        console.log(i);
+    }
+}
+printtable(6);
