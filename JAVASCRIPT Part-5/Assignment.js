@@ -10,3 +10,14 @@ const car={
     color:"white"
 };
 console.log(car.name);
+
+//soln- 3
+
+const person={
+    name:"jane doe",
+    age:21,
+    city:"New jersey"
+};
+person.city="New york";
+person.country="united states";
+console.log(person);
