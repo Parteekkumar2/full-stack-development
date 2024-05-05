@@ -30,3 +30,11 @@ function isadult(){
 }
 
 isadult();
+
+//Practice question -1
+
+function printpoem(){
+    console.log("Twinkle Twinkle little star");
+    console.log("how i wonder what you are");
+}
+printpoem();
