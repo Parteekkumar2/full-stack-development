@@ -71,3 +71,10 @@ function sum(a,b){
 }
 sum(2,3);
 sum(7,8);
+
+//practice question -3
+function calcavg(a,b,c){
+    let avg=(a+b+c)/3
+    console.log(avg);
+}
+calcavg(2,4,6);
