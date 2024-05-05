@@ -87,3 +87,13 @@ function printtable(n){
     }
 }
 printtable(6);
+
+//return keyword
+
+function isadult(age){
+    if(age>=18){
+        return "adult";
+    }else{
+        return "not adult";
+    }
+}
