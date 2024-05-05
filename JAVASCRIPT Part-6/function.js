@@ -49,3 +49,11 @@ rolldice();
 rolldice();
 rolldice();
 rolldice();
+
+//function with arguments
+
+function printname(name){
+    console.log(name);
+}
+printname("PARTEEK");
+printname("keshav");
