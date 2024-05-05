@@ -64,3 +64,10 @@ function printinfo(name,age){
 }
 printinfo("parteek",20);
 printinfo("keshav",15);
+
+//example -2
+function sum(a,b){
+    console.log(a+b);
+}
+sum(2,3);
+sum(7,8);
