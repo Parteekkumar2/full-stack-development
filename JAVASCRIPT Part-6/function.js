@@ -57,3 +57,10 @@ function printname(name){
 }
 printname("PARTEEK");
 printname("keshav");
+
+//eg-2
+function printinfo(name,age){
+    console.log(`${name}'s age is ${age}.`);
+}
+printinfo("parteek",20);
+printinfo("keshav",15);
