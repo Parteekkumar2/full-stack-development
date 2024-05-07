@@ -137,5 +137,8 @@ function changegreet(){
         console.log(greet);
     }
 }
-console.log(greet);
-changegreet();
+//function expression
+const sums =function(a,b){
+ return a+b;
+}
+sums(2,3);
