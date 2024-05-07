@@ -170,3 +170,16 @@ function oddeventest(request){
     }
 }
 let request ="odd";
+
+//methods
+const calculator ={
+    add:function(a,b){
+        return a+b;
+    },
+    sub:function(a,b){
+        return a-b;
+    },
+    mul:function(a,b){
+        return a*b;
+    }
+};
