@@ -142,3 +142,13 @@ const sums =function(a,b){
  return a+b;
 }
 sums(2,3);
+//Higher order function 
+function multiplegreet(func,n){
+    for(let i=1;i<=n;i++){
+        func();
+    }
+}
+let greets = function(){
+ console.log("hello");
+}
+multiplegreet(greets,10);
