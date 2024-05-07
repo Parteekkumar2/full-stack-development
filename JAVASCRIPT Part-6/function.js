@@ -117,3 +117,13 @@ function concat(str){
     }
     return result;
 }
+
+//Lexical scope
+function outerfunc(){
+    let x=5;
+    let y=6;
+    function innerfunc(){
+        console.log(x);
+    }
+    innerfunc();
+}
