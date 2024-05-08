@@ -208,3 +208,19 @@ function getElements(arr,num){
     }
 }
 getElements(arr,num);
+
+//question-2
+
+let strs="abcdabcdefgggh";
+//function to get string with all unique elements
+function getuniques(strs){
+    let ans="";
+    for(let i=0;i<strs.length;i++){
+        let currchar=strs[i];
+        if (ans.indexOf(currchar)==-1){
+            ans+=currchar;
+        }
+    }
+    return ans;
+}
+getuniques(strs);
