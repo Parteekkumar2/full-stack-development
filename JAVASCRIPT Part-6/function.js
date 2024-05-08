@@ -224,3 +224,19 @@ function getuniques(strs){
     return ans;
 }
 getuniques(strs);
+
+//solution -3
+
+let country =["Australia","germany","united states of america"];
+function longestname(country){
+    let ansIdx=0;
+    for(let i=0;i<country.length;i++){
+        let ansLen=country[ansIdx].length;
+        let currLen=country[i].length;
+        if (currLen>ansLen){
+            ansIdx=i;
+        }
+    }
+    return country[ansIdx];
+}
+longestname(country);
