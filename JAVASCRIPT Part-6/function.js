@@ -240,3 +240,22 @@ function longestname(country){
     return country[ansIdx];
 }
 longestname(country);
+
+//solution -4
+
+let stre="Parteek";
+function countvowels(stre){
+    let count=0;
+    for(let i=0;i<str.length;i++){
+        if(
+            stre.charAt(i)=="a"||
+            stre.charAt(i)=="e"||
+            stre.charAt(i)=="i"||
+            stre.charAt(i)=="o"||
+            stre.charAt(i)=="u"
+        ) {
+            count++;
+        }
+    }
+    return count;
+}
