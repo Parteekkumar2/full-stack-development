@@ -36,3 +36,8 @@ const cube=(n)=>{
     return n*n*n;
 };
 console.log(cube(8));
+//ex-3
+const pow=(a,b)=>{
+    return a**b;
+};
+console.log(pow(2,3));
