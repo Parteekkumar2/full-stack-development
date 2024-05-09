@@ -12,3 +12,16 @@ const student ={
     }
 }
 console.log(student.getavg());
+
+//try & catch method
+
+console.log("hello");
+console.log("hello");
+let a=25;
+try{
+    console.log(a);
+}catch{
+    console.log("caught an eror .. a is not dfined");
+}
+console.log("hello2");
+console.log("hello2");
