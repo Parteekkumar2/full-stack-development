@@ -31,3 +31,8 @@ const sum=(a,b)=>{
     console.log(a+b);
 };
 console.log(sum(2,6));
+//ex-2
+const cube=(n)=>{
+    return n*n*n;
+};
+console.log(cube(8));
