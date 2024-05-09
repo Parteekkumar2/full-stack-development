@@ -17,7 +17,7 @@ console.log(student.getavg());
 
 console.log("hello");
 console.log("hello");
-let a=25;
+// let a=25;(error)
 try{
     console.log(a);
 }catch{
@@ -25,3 +25,9 @@ try{
 }
 console.log("hello2");
 console.log("hello2");
+
+//Arrow function
+const sum=(a,b)=>{
+    console.log(a+b);
+};
+console.log(sum(2,6));
