@@ -41,3 +41,7 @@ const pow=(a,b)=>{
     return a**b;
 };
 console.log(pow(2,3));
+
+//Implicit return in arrow function
+const mul=(a,b)=>(a*b);
+console.log(mul(2,6));
