@@ -52,3 +52,9 @@ setTimeout( ()=>{
     console.log("full stack developer")
 },4000);
 console.log("welcome to");
+
+//det interval function
+//   let id =setInterval( ()=>{
+//       console.log("front end developer");
+//   },2000);
+
