@@ -45,3 +45,10 @@ console.log(pow(2,3));
 //Implicit return in arrow function
 const mul=(a,b)=>(a*b);
 console.log(mul(2,6));
+
+//set timeout function
+console.log("hi there!");
+setTimeout( ()=>{
+    console.log("full stack developer")
+},4000);
+console.log("welcome to");
