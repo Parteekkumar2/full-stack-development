@@ -114,3 +114,15 @@ let id =setInterval(()=>{
 setTimeout(()=>{
     clearInterval(id);
 },10000);
+
+//Assignment question 
+const arrayaverage=(arr)=>{
+    let total =0;
+    for(let number of arr){
+        total +=number;
+    }
+    return total/arr.length;
+};
+
+let arr=[1,2,34,5,6,7,8,9];
+console.log(arrayaverage(arr));
