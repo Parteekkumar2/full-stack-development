@@ -84,4 +84,33 @@ getinfo2:function(){
 },
 };
 
+//soln (this with arrow conceopt console)
+// students
+// {name: 'parteek', marks: 95, prop: Window, getname: ƒ, getmarks: ƒ, …}
+// students.getname()
+// index.js:68 {name: 'parteek', marks: 95, prop: Window, getname: ƒ, getmarks: ƒ, …}
+// 'parteek'
+// students.getmarks()
+// index.js:72 Window {window: Window, self: Window, document: document, name: '', location: Location, …}
+// undefined
+// students.getinfo1()
+// undefined
+// index.js:77 {name: 'parteek', marks: 95, prop: Window, getname: ƒ, getmarks: ƒ, …}
+// students.getinfo2()
+// undefined
+// index.js:82 Window {window: Window, self: Window, document: document, name: '', location: Location, …}
 
+
+
+
+//practice questinon
+const square=(n)=>n*n;
+console.log(square(8));
+
+//practice question soln -2
+let id =setInterval(()=>{
+    console.log("Hello World");
+},2000);
+setTimeout(()=>{
+    clearInterval(id);
+},10000);
