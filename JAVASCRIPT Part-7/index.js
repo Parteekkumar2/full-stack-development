@@ -126,3 +126,7 @@ const arrayaverage=(arr)=>{
 
 let arr=[1,2,34,5,6,7,8,9];
 console.log(arrayaverage(arr));
+
+//ques-2
+let num=4;
+const isEven =(num)=>num%2==0;
