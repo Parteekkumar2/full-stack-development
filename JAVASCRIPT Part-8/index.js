@@ -62,3 +62,8 @@ let max=numb.reduce((max, el)=>{
     }
 });
 console.log(max);
+
+//Practice question
+let value=[10,20,30,40,50];
+let finals=value.every((el)=>el%10==0);
+console.log(finals);
