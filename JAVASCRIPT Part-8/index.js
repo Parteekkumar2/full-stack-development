@@ -67,3 +67,13 @@ console.log(max);
 let value=[10,20,30,40,50];
 let finals=value.every((el)=>el%10==0);
 console.log(finals);
+
+//qus-2
+let min=value.reduce((min,el)=>{
+    if(min<el){
+        return min;
+    }else{
+        return el;
+    }
+});
+console.log(min);
