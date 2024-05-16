@@ -42,3 +42,7 @@ let nums=[1,2,3,4,5,6,7,8,9];
 let ans=nums.filter((el)=>{
     return el%2==0;
 });
+
+//every 
+[1,2,3,4].every((el)=>(el%2==0));
+[2,4].every((el)=>(el%2==0));
