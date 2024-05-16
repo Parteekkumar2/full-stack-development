@@ -46,3 +46,8 @@ let ans=nums.filter((el)=>{
 //every 
 [1,2,3,4].every((el)=>(el%2==0));
 [2,4].every((el)=>(el%2==0));
+
+//reduce 
+let number=[1,2,3,4];
+let finalval=number.reduce((res,el)=>res+el);
+console.log(finalval);
