@@ -32,3 +32,8 @@ let student=[
 student.forEach((student) =>{
     console.log(student.marks);
 });
+//map
+let num=[1,2,3,4];
+let double=num.map((el)=>{
+    return el*el;
+});
