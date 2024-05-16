@@ -51,3 +51,14 @@ let ans=nums.filter((el)=>{
 let number=[1,2,3,4];
 let finalval=number.reduce((res,el)=>res+el);
 console.log(finalval);
+
+//Maximum in Array 
+let numb=[1,2,3,4,5,6,7,8,9,11,22,33,];
+let max=numb.reduce((max, el)=>{
+    if(el>max){
+        return el;
+    }else{
+        return max;
+    }
+});
+console.log(max);
