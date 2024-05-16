@@ -77,3 +77,9 @@ let min=value.reduce((min,el)=>{
     }
 });
 console.log(min);
+
+//default parameter
+function sum(a,b=2){
+    return a+b;
+}
+console.log(sum(1));
