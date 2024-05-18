@@ -118,8 +118,22 @@ function mins(msg, ...args){
 }
 console.log(mins("hello" , 1,2,3,4,5));
 
+//destructuring
+
 let name=["tony", "bruce" ,"peter" , "steve" , "abc"];
 let [winner ,runnerup, ...others]=name;
 console.log(winner);
 console.log(runnerup);
 console.log(...others);
+
+//Destructuring (Object)
+const studento={
+    name:"abc",
+    class:9,
+    age:14,
+    sub:["hindi","english","math"],
+    username:"abc@gmail.com",
+    password:1234,
+};
+const{username:user,password:pass}=studento;
+console.log(user ,pass);
