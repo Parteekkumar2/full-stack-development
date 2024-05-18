@@ -15,3 +15,9 @@ console.log(number.map((number)=>number+5));
 let string=["adam","bob","catlyn","donald","eve"];
 console.log(string.map((string)=>string.toUpperCase()));
 
+//question - 4
+const doubleandreturnargs=(arr, ...args)=>[
+    ...arr,...args.map((v)=>v*2),
+];
+doubleandreturnargs([1,2,3], 4,4);
+
