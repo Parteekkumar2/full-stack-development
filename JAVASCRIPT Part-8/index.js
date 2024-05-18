@@ -90,3 +90,11 @@ let even=[2,4,6,8,10];
 
 let numbe=[...odd ,...even];
 console.log(numbe);
+
+//Spread with Object Literals
+let data={
+    email:"ironman@gmail.com",
+    Password:"abcd"
+};
+let datacopy={...data, id:123};
+console.log(datacopy);
