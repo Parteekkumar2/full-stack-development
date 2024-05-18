@@ -10,3 +10,8 @@ console.log(avg);
 let number=[2,4,6,8,-2,-4];
 console.log(number.map((number)=>number+5));
 
+
+//question - 3
+let string=["adam","bob","catlyn","donald","eve"];
+console.log(string.map((string)=>string.toUpperCase()));
+
