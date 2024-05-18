@@ -5,3 +5,8 @@ console.log(square);
 let sum=square.reduce((acc,cur)=>acc+cur,0);
 let avg=sum/nums.length;
 console.log(avg);
+
+//questio n-2
+let number=[2,4,6,8,-2,-4];
+console.log(number.map((number)=>number+5));
+
