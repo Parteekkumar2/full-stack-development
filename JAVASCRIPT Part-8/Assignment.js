@@ -19,5 +19,9 @@ console.log(string.map((string)=>string.toUpperCase()));
 const doubleandreturnargs=(arr, ...args)=>[
     ...arr,...args.map((v)=>v*2),
 ];
-doubleandreturnargs([1,2,3], 4,4);
+console.log(doubleandreturnargs([1,2,3], 4,4));
+
+//question - 5
+const mergeobject=(obj1,obj2)=>({...obj1, ...obj2});
+console.log(mergeobject({a:1,b:2} , {c:1,d:4}));
 
