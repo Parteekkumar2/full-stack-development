@@ -98,3 +98,9 @@ let data={
 };
 let datacopy={...data, id:123};
 console.log(datacopy);
+
+//Rest 
+function sum( ...args){
+ return args.reduce((sum,el)=>sum+el);
+}
+console.log(sum(1,2,3,4));
