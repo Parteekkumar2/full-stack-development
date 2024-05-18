@@ -117,3 +117,9 @@ function mins(msg, ...args){
     });
 }
 console.log(mins("hello" , 1,2,3,4,5));
+
+let name=["tony", "bruce" ,"peter" , "steve" , "abc"];
+let [winner ,runnerup, ...others]=name;
+console.log(winner);
+console.log(runnerup);
+console.log(...others);
