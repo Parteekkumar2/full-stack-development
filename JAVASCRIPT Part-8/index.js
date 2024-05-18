@@ -104,3 +104,16 @@ function sum( ...args){
  return args.reduce((sum,el)=>sum+el);
 }
 console.log(sum(1,2,3,4));
+
+//rest eg -2
+function mins(msg, ...args){
+    console.log(msg);
+    return args.reduce((mins,el)=>{
+        if(mins>el){
+            return el;
+        }else {
+            return mins;
+        }
+    });
+}
+console.log(mins("hello" , 1,2,3,4,5));
