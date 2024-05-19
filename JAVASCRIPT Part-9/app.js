@@ -10,3 +10,7 @@ for(let i=0;i<smallImage.length;i++){
     smallImage[i].src="assets/spiderman_img.png";
 console.log(`value of image no.  ${i} is changed.`);
 }
+
+//Query selector
+
+console.dir(document.querySelectorAll(`p`));
