@@ -14,3 +14,10 @@ console.log(`value of image no.  ${i} is changed.`);
 //Query selector
 
 console.dir(document.querySelectorAll(`p`));
+
+//Manipulating style
+
+let links=document.querySelectorAll(".box a");
+for(let i=0; i<links.length;i++){
+    links[i].style.color="purple";
+}
