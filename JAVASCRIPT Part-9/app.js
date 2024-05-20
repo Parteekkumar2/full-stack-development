@@ -26,3 +26,9 @@ for(let i=0; i<links.length;i++){
 let heading=document.querySelector('h1');
 heading.classList;
 heading.classList.add("green");
+
+//navigation on page
+
+let h4=document.querySelector('h4');
+console.log(h4.parentElement);
+//parent child previousElementSibling  nextElementSibling
