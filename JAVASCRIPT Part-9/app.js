@@ -32,3 +32,11 @@ heading.classList.add("green");
 let h4=document.querySelector('h4');
 console.log(h4.parentElement);
 //parent child previousElementSibling  nextElementSibling
+
+//Adding element on page 
+let btn=document.createElement('button');
+
+btn.innerHTML="new button";
+
+let p=document.querySelector('p');
+p.insertAdjacentElement('beforebegin',btn);
