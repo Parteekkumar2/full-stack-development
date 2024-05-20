@@ -21,3 +21,8 @@ let links=document.querySelectorAll(".box a");
 for(let i=0; i<links.length;i++){
     links[i].style.color="purple";
 }
+
+//Manipulating style class list
+let heading=document.querySelector('h1');
+heading.classList;
+heading.classList.add("green");
