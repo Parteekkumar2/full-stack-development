@@ -10,3 +10,15 @@ function sayHello(){
 function sayname(){
     alert("Parteek");
 }
+
+
+//Event Listeners for Element
+let p=document.querySelector("p");
+p.addEventListener("click", function(){
+    console.log("para was clicked");
+})
+
+let box=document.querySelector(".boxes");
+box.addEventListener("mouseenter",function(){
+    console.log("mouse inside box");
+});
