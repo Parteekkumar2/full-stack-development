@@ -25,7 +25,7 @@ box.addEventListener("mouseenter",function(){
 
 
 
-
+// Extracting form Data
 
 let forms=document.querySelector("form");
 forms.addEventListener("submit", function(event){
