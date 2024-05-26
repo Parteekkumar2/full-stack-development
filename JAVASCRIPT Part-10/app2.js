@@ -22,3 +22,20 @@ let box=document.querySelector(".boxes");
 box.addEventListener("mouseenter",function(){
     console.log("mouse inside box");
 });
+
+
+
+
+
+let forms=document.querySelector("form");
+forms.addEventListener("submit", function(event){
+    event.preventDefault();
+
+    let user=document.querySelector("#user");
+    let pass=document.querySelector("#pass");
+
+    console.log(user.value);
+    console.log(pass.value);
+
+    alert(`Hi ${user.value}, your password is set to ${pass.value}`);
+});
