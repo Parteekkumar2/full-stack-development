@@ -23,3 +23,10 @@ function three(){
     console.log(ans);
 }
 three();
+
+
+//javascript is a single threaded //
+setTimeout(function(){
+    console.log("apna college");
+},2000);
+console.log("Hello")
