@@ -11,7 +11,15 @@ function savetoDb(data){
 
 savetoDb("parteek")
 .then(()=>{
-    console.log("promise was resolved");
+    console.log("data 1 saved");
+    return savetoDb("helloworld");
+})
+.then(()=>{
+    console.log("data 2 saved");
+    return savetoDb("parteekkumar")
+})
+.then(()=>{
+    console.log("data 3 saved");
 })
 .catch(()=>{
     console.log("promise was rejected");
