@@ -10,17 +10,21 @@ function savetoDb(data){
 }
 
 savetoDb("parteek")
-.then(()=>{
+.then((result)=>{
     console.log("data 1 saved");
+    console.log("result of promise:",result);
     return savetoDb("helloworld");
 })
-.then(()=>{
+.then((result)=>{
     console.log("data 2 saved");
+    console.log("result of promise:",result);
     return savetoDb("parteekkumar")
 })
-.then(()=>{
+.then((result)=>{
     console.log("data 3 saved");
+    console.log("result of promise:",result);
 })
-.catch(()=>{
+.catch((error)=>{
     console.log("promise was rejected");
+    console.log("error of promise:",error);
 });
