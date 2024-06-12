@@ -50,3 +50,31 @@ changecolor("red",1000,()=>{
         });
     });
 });
+
+//Setting up for promises
+
+function savetoDb(data,success,failure){
+    let internetspeed=Math.floor(Math.random()*10)+1;
+    if(internetspeed>4){
+        success();
+    }else{
+        failure();
+    }
+}
+
+savetoDb(
+    "my name is parteek",
+()=>{
+    console.log("success:your data was saved");
+    savetoDb("helloworld",()=>{
+        console.log("success 2:data 2 saved");
+    },
+    ()=>{
+        console.log("failure2:weak connection");
+    }
+);
+},
+()=>{
+    console.log("failure:weak connection.data not saved")
+}
+);
