@@ -29,3 +29,11 @@ console.log(a);
 console.log("new number=",a+3);
 }
 
+
+let jsonRes=`{
+    "fact": "Cats only sweat through their paws and nowhere else on their body",
+    "length": 65
+}`;
+
+let validRes=JSON.parse(jsonRes);
+console.log(validRes.fact);
