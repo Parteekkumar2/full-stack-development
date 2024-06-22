@@ -59,3 +59,22 @@ fetch(url)
 .catch((err)=>{
     console.log("ERROR -",err);
 })
+
+//using fetch with async-await
+
+let urls="https://catfact.ninja/fact";
+async function getFacts(){
+   try{
+    let res3=await fetch(urls);
+    let data3=await res3.json();
+    console.log(data3.fact);
+
+   let res4=await fetch(urls);
+    let data4=await res4.json();
+    console.log(data4.fact);
+   }catch (e){
+    console.log("error -",e);
+   }
+   console.log("bye");
+
+}
