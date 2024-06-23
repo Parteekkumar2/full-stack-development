@@ -43,3 +43,16 @@ async function getImage(){
 
 
 }
+
+
+//sending headers with api requests
+const url3="https://icanhazdadjoke.com/";
+async function getjokes(){
+    try{
+        const config= { headers:{Accept: "application/json"} };
+        let res=await axios.get(url3, config);
+        console.log(res.data);
+    }catch(err){
+        console.log(err);
+    }
+}
