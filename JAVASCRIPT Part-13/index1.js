@@ -23,7 +23,7 @@ function show(colArr){
 
 async function getColleges(country){
     try{
-        let res=await axios.get(url4+country);
+        let res=await axios.get(url4 + country);
         return res.data;
     }catch(e){
         console.log("error: ",e);
