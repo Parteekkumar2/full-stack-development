@@ -56,3 +56,5 @@ async function getjokes(){
         console.log(err);
     }
 }
+
+//Activity Using Query Strings
