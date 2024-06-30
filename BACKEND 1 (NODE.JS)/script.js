@@ -19,3 +19,9 @@ for(let i=2;i<args.length;i++){
 const math=require("./math");
 console.log(math.sum(2,2));
 console.log(math.PI);
+
+//export in directories
+
+const info=require("./fruits");
+console.log(info);
+console.log(info[0].name);
